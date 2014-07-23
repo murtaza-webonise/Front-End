@@ -1,60 +1,83 @@
 /* CSS Document */
 
-* {
-margin:0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-#main {
+
+body {
+font-family:Arial;
+font-size:14px;
+line-height:18px;
+ }
+
+
+.Wrapper {
 width:940px;
 margin:0px auto;
 }
 
-#banner {
+#header {
 background-color:#499bd7;
 height:175px;
 }
 
-#header {
-font-style:inherit;
-font-family:Arial;
+h1 {
 color:#FFFFFF;
-line-height:10px;
-padding-top:82.5px;
-padding-left:400px;
+font-size:30px;
+padding-top:72px;
+text-align:center;
 }
 
-.Graydiv {
+
+.Nav {
 background-color:#d6d6d6;
 height:60px;
 
 }
 
-.Graydiv ul  {
+
+ul  {
 float:left;
-margin:0;
 list-style-type:none;
 padding-top:20px;
-padding-left:2px;
-
-
 }
 
 
-.Graydiv ul li {
+li {
 
 display:inline;
-padding:  .2em;
+padding: .2em;
 
 }
  
-.Graydiv ul li a {
+ a {
 
-font-style:inherit;
-font-family:Arial;
-line-height:10px;
 color:#000000;
 text-decoration:none;
 
+ }
+ 
+ .Image {
+ float:left;
+ margin-right:12px;
  }
 
 .Size_1 {
@@ -64,44 +87,19 @@ font-size:14px;
 .Size_2 {
 font-size:12px;
 }
-
-
-.Graydiv span {
-font-style:inherit;
-font-family:Arial;
+ 
+.Copyright{
 font-size:12px;
 float:right;
 padding-top:20px;
-
 }
 
-
-#container1{
-padding-top:225px;
-width:918px;
-
-}
-  
-#div1 {
-margin-top:15px;
-width: 213px;
-height: 203px;
-float:left;
-background-color:#d6d6d6;
-}
-#div2 {
-margin-top:15px;
-float:right;
-width:707px;
-
+#container{
+padding-top:30px;
+width:940px;
+margin:0px auto;
 }
 
-.Font {
-font-style:inherit;
-font-family:Arial;
-font-size:15px;
-line-height:17px;
-}
 #footer {
 margin-top:20px;
 }
