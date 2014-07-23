@@ -1,0 +1,161 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+Body {
+font-family:Arial;
+
+}
+
+.Wrapper {
+width:940px;
+margin:0 auto;
+}
+
+.Header {
+background-color:#444444;
+height:50px;
+}
+
+#Logo {
+margin-top:9px;
+margin-right:54px;
+}
+
+ ul {
+list-style-type:none;
+
+}
+
+ li {
+
+float:left;
+display:inline;
+
+
+
+}
+
+li a {
+font-size:18px;
+line-height:30px;
+font-weight:bold;
+color:#aaaaaa;
+text-decoration:none;
+margin-right:25px;
+margin-top:25px;
+}
+
+.Divider {
+margin-right:25px;
+
+}
+
+
+
+.Clear {
+clear:both;
+}
+
+.Bluecontainer {
+/*background-image:url(../../../Documents/Unnamed Site 1/pattern.jpg);
+background-repeat:repeat;*/
+height:485px;
+}
+
+.Leftcontent {
+float:left;
+
+}
+
+h1 {
+font-size:48px;
+padding-top:190px;
+font-weight:bold;
+padding-left:15px;
+color:#ffffff;
+}
+
+.Rightcontent {
+float:right;
+
+}
+
+.Whitecontainer {
+height:500px;
+}
+
+h2 {
+font-size:36px;
+line-height:30px;
+padding-top:64px;
+text-align:center;
+}
+
+h3 {
+color:#ffffff;
+font-size:36px;
+padding-left:15px;
+font-weight:lighter;
+}
+
+.Pics {
+float:left;
+margin-right:15px;
+margin-top:50px;
+}
+
+#frame {
+margin-top:90px;
+}
+
+#furniture {
+padding-left:14px;
+}
+
+#lapy {
+margin-left:80px;
+}
+
+.Whitepics {
+
+float:left;
+margin-right:30px;
+padding-top:165px;
+text-align:center;
+color:#888888;
+font-size:18px;
+
+}
+
+
+
+.Footer {
+height:160px;
+background-color:#ececec;
+}
+
+.Footerimage {
+float:right;
+
+}
+
