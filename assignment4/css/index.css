@@ -39,6 +39,7 @@ font-size: 18px;
 
 }
 
+<<<<<<< HEAD
 a {
 display:block;
 text-decoration:none;
@@ -48,6 +49,10 @@ text-decoration:none;
 
 .wrapper {
 width:940px;
+=======
+.Wrapper {
+width:980px;
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 margin:0 auto;
 }
 
@@ -56,7 +61,11 @@ background-color:#444444;
 height:50px;
 }
 
+<<<<<<< HEAD
 .logo {
+=======
+.Logo {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 margin-top:9px;
 margin-right:54px;
 float:left;
@@ -68,20 +77,36 @@ float:left;
 
 }
 
+<<<<<<< HEAD
 li {
+=======
+ .Header li {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 
 float:left;
 }
 
+<<<<<<< HEAD
 .header li a {
+=======
+.Header li a {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 font-size:18px;
 line-height:30px;
 font-weight:bold;
 color:#aaaaaa;
+<<<<<<< HEAD
 padding-right:25px;
 padding-left:25px;
 padding-top:12px;
 padding-bottom:10px;
+=======
+text-decoration:none;
+padding-right:25px;
+padding-left:25px;
+padding-top:25px;
+padding-bottom:25px;
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 }
 
 
@@ -91,6 +116,14 @@ padding-bottom:10px;
 clear:both;
 float:none;
 
+<<<<<<< HEAD
+=======
+}
+
+a{
+ text-decoration:none;
+ color:#000000;
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 }
 
 
@@ -101,10 +134,17 @@ background-repeat:repeat;
 height:485px;
 }
 
+<<<<<<< HEAD
 .leftContent {
 
 float:left;
 margin:190px 20px 0px 18px;
+=======
+.Leftcontent {
+
+float:left;
+margin:190px 0px 50px 20px;
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 
 }
 
@@ -117,15 +157,23 @@ color:#ffffff;
 pre {
 color:#ffffff;
 font-size:36px;
+<<<<<<< HEAD
 font-weight:100;
 }
 
 .link {
+=======
+font-weight:lighter;
+}
+
+.Link {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 float:left;
 font-weight:bold;
 font-size:20px;
 border-radius:3px;
 width:170px;
+<<<<<<< HEAD
 height:50px;
 margin:45px 20px 120px auto;
 border:none;
@@ -139,15 +187,38 @@ background:#f2f2f2;
 }
 
 .join {
+=======
+height:40px;
+margin:45px 20px 105px 0px;
+border:none;
+text-align:center;
+padding-top:15px;
+
+}
+
+.View {
+background:#f2f2f2;
+}
+
+.Join {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 
 background:#ff9900;
 }
 
+<<<<<<< HEAD
 .join a {
 color:#FFFFFF;
 }
 
 .rightContent {
+=======
+.Join a {
+color:#FFFFFF;
+}
+
+.Rightcontent {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 float:right;
 
 }
@@ -165,6 +236,7 @@ margin-top:90px;
 
 #furniture {
 margin-right:30px;
+<<<<<<< HEAD
 }
 
 .whiteContainer {
@@ -212,6 +284,39 @@ margin:0 20px ;
 .lapyIcon {
 
 background-image:url('../images/lapy.png');
+=======
+}
+
+.Whitecontainer {
+height:500px;
+}
+
+
+
+h3 {
+font-size:36px;
+line-height:30px;
+margin-top:64px;
+text-align:center;
+}
+
+
+
+.lapy {
+margin-left:80px;
+}
+
+.Whitecontainer li {
+
+float:left;
+margin-right:30px;
+margin-top:75px;
+text-align:center;
+color:#888888;
+font-size:18px;
+margin-bottom:25px;
+
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 
 }
 
@@ -268,6 +373,7 @@ font-weight:bold;
 color:#000000;
 }
 
+<<<<<<< HEAD
 .alignment {
 float:left;
 
@@ -285,17 +391,53 @@ margin-top:23px;
 
 padding-right:13px;
 padding-left:13px;
+=======
+
+.Size
+ {
+float:left;
+font-size:16px;
+color:#fa9c40;
+padding-right:17px;
+margin-top:30px;
+font-weight:bold;
+
+
+}
+
+
+
+
+.Home {
+color:#000000;
+}
+
+.Copyright
+{ float:left;
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 font-size:14px;
 font-weight:bold;
 color:#aaaaaa;
 }
 
+<<<<<<< HEAD
 
 
 .terms {
+=======
+.Copyrightvariant {
+padding-right:13px;
+padding-left:13px
+}
+
+.Terms {
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
 margin-left:62px;
 
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97f9e3ddc039493cf633f2cbaeba43d1ef2b9908
