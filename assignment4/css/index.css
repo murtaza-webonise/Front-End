@@ -20,108 +20,143 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
 
 Body {
-font-family:Arial;
+font-family: 'Source Sans Pro', 'sans-serif','Arial','Georgia','Helvetica';
+font-size: 18px;
+
 
 }
 
-.Wrapper {
+a {
+display:block;
+text-decoration:none;
+ color:#000000;
+}
+
+
+.wrapper {
 width:940px;
 margin:0 auto;
 }
 
-.Header {
+.header {
 background-color:#444444;
 height:50px;
 }
 
-#Logo {
+.logo {
 margin-top:9px;
 margin-right:54px;
+float:left;
 }
 
  ul {
 list-style-type:none;
+float:left;
 
 }
 
- li {
+li {
 
 float:left;
-display:inline;
-
-
-
 }
 
-li a {
+.header li a {
 font-size:18px;
 line-height:30px;
 font-weight:bold;
 color:#aaaaaa;
-text-decoration:none;
-margin-right:25px;
-margin-top:25px;
-}
-
-.Divider {
-margin-right:25px;
-
+padding-right:25px;
+padding-left:25px;
+padding-top:12px;
+padding-bottom:10px;
 }
 
 
 
-.Clear {
+
+.clear {
 clear:both;
+float:none;
+
 }
 
-.Bluecontainer {
-/*background-image:url(../../../Documents/Unnamed Site 1/pattern.jpg);
-background-repeat:repeat;*/
+
+
+.blueContainer {
+background-image:url('../images/pattern.jpg');
+background-repeat:repeat;
 height:485px;
 }
 
-.Leftcontent {
+.leftContent {
+
 float:left;
+margin:190px 20px 0px 18px;
 
 }
 
 h1 {
 font-size:48px;
-padding-top:190px;
 font-weight:bold;
-padding-left:15px;
 color:#ffffff;
 }
 
-.Rightcontent {
+pre {
+color:#ffffff;
+font-size:36px;
+font-weight:100;
+}
+
+.link {
+float:left;
+font-weight:bold;
+font-size:20px;
+border-radius:3px;
+width:170px;
+height:50px;
+margin:45px 20px 120px auto;
+border:none;
+text-align:center;
+padding-top:20px;
+
+}
+
+.view {
+background:#f2f2f2;
+}
+
+.join {
+
+background:#ff9900;
+}
+
+.join a {
+color:#FFFFFF;
+}
+
+.rightContent {
 float:right;
 
 }
 
-.Whitecontainer {
-height:500px;
-}
-
-h2 {
-font-size:36px;
-line-height:30px;
-padding-top:64px;
-text-align:center;
-}
-
-h3 {
-color:#ffffff;
-font-size:36px;
-padding-left:15px;
-font-weight:lighter;
-}
-
-.Pics {
+.pics {
 float:left;
-margin-right:15px;
 margin-top:50px;
+margin-right:15px;
+
 }
 
 #frame {
@@ -129,33 +164,138 @@ margin-top:90px;
 }
 
 #furniture {
-padding-left:14px;
-}
-
-#lapy {
-margin-left:80px;
-}
-
-.Whitepics {
-
-float:left;
 margin-right:30px;
-padding-top:165px;
+}
+
+.whiteContainer {
+
+}
+
+
+
+h3 {
+font-size:36px;
+line-height:30px;
+margin-top:64px;
+text-align:center;
+font-weight:650;
+}
+
+.circle {
+
+margin-left:80px;
+margin-top:75px;
+
+}
+
+.circle li {
+width:180px;
+margin-right:20px;
 text-align:center;
 color:#888888;
 font-size:18px;
+padding-bottom:65px;
 
+}
+
+.circleList {
+
+height:140px;
+width:140px;
+background:#efefef;
+border-radius:50%;
+background-repeat:no-repeat;
+background-position:center center;
+margin:0 20px ;
+}
+
+.lapyIcon {
+
+background-image:url('../images/lapy.png');
+
+}
+
+.homeIcon {
+
+background-image:url('../images/home.png');
+}
+
+.frameIcon {
+
+background-image:url('../images/frame.png');
+}
+
+.bookIcon {
+
+background-image:url('../images/book.png');
+}
+
+
+.textDivision {
+text-align:center;
 }
 
 
 
-.Footer {
+.footer {
 height:160px;
 background-color:#ececec;
 }
 
-.Footerimage {
+.footerRightul{
 float:right;
+margin-top:20px;
+
 
 }
+
+.footerRightul li {
+margin-right:7px;
+}
+
+
+
+.size {
+font-size:16px;
+color:#fa9c40;
+padding-right:17px;
+margin-top:30px;
+font-weight:bold;
+
+}
+
+.home {
+color:#000000;
+}
+
+.alignment {
+float:left;
+
+}
+
+.copyRight
+{ 
+font-size:14px;
+font-weight:bold;
+color:#aaaaaa;
+margin-top:23px;
+}
+
+.copyRight a {
+
+padding-right:13px;
+padding-left:13px;
+font-size:14px;
+font-weight:bold;
+color:#aaaaaa;
+}
+
+
+
+.terms {
+margin-left:62px;
+
+}
+
+
 
