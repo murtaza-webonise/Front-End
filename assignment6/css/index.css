@@ -1,0 +1,356 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+img {
+display:block;
+}
+Body {
+font-family: 'Arial','Georgia','Helvetica';
+
+font-size: 12px;
+}
+
+a {
+text-decoration:none;
+ color:#000000;
+}
+
+ul{
+list-style-type:none;
+
+}
+
+.wrapper {
+width:940px;
+margin:0 auto;
+}
+
+.header {
+background-color:#ffffff;
+}
+
+
+.logo {
+height:45px;
+width:114px;
+float:left;
+margin:6px 22px 4px 0px;
+background:url('../images/logo.png') 0 0 no-repeat;
+}
+
+.nav {
+float:left;
+
+}
+
+.nav li {
+
+float:left;
+
+}
+
+.nav a {
+display:block;
+margin-right:30px;
+padding-top:20px;
+padding-bottom:20px;
+font-weight:bold;
+}
+
+.nav li.clear {
+clear:both;
+float:none;
+}
+
+.searchBar {
+float:left;
+border:2px solid #d6d6d6;
+border-radius:3px;
+width:240px;
+height:30px;
+margin:12px 0px 12px 40px ;
+background-position:right;
+background:url('../images/search.png') 97% no-repeat;
+outline:none;
+}
+
+.headerRightul {
+margin-left:25px;
+float:left;
+
+}
+
+.headerRightul  li {
+
+float:left;
+}
+
+.circle {
+display:block;
+height:30px;
+width:30px;
+background:#000000;
+border-radius:50%;
+background-repeat:no-repeat;
+background-position:center center;
+margin:16px 6px 14px 0px;
+
+}
+
+.facebookIcon {
+
+background-image:url('../images/f.png');
+
+}
+.googleIcon {
+
+background-image:url('../images/g.png');
+
+}
+.pinIcon {
+
+background-image:url('../images/p.png');
+
+}
+.twitterIcon {
+
+background-image:url('../images/t.png');
+
+}
+
+.headerRightul  li.clear {
+clear:both;
+float:none;
+}
+.clear {
+clear:both;
+float:none;
+
+}
+
+
+.imageContainer {
+min-height:600px;
+overflow:hidden;
+background:url('../images/banner.jpg') center center no-repeat;
+background-color:#000000;
+position:relative;
+
+}
+.imageText {
+position:absolute;
+top:450px;
+}
+
+.imageText h2 {
+
+color:#FFFFFF;
+font-size:40px;
+font-weight:bold;
+margin-left:0px;
+}
+
+.imageText p {
+
+font-size:22px;
+line-height:22px;
+color:#FFFFFF;
+}
+
+.yellowContainer {
+
+background-color:#ecab1f;
+
+}
+
+.yellowContainer li {
+
+float:left;
+
+}
+
+.yellowContainer li a {
+display:block;
+border-radius:5px;
+margin:19px 22px 22px 0px;
+width:183px;
+height:60px;
+border:none;
+background:#ffffff url('../images/arrow.png') 177px  no-repeat;
+vertical-align:middle;
+font-size:22px;
+padding:30px 20px 0px 10px;
+}
+
+
+
+.yellowContainer li.clear {
+clear:both;
+float:none;
+
+}
+
+.whiteContainer {
+
+}
+h3 {
+font-size:38px;
+color:#888888;
+padding-top:67px;
+}
+
+.whiteContainer ul {
+
+margin-top:20px;
+}
+
+.whiteContainer li {
+float:left;
+margin:auto 14px 70px 0px;
+width:299px;
+}
+
+.imageWrapper {
+max-height:200px;
+overflow:hidden;
+}
+
+.blueContainer {
+background-color:#4466ff;
+
+}
+
+.blueContainer span {
+display:block;
+color:#FFFFFF;
+font-size:16px;
+padding-top:18px;
+margin-left:15px;
+}
+
+.blueContainer p {
+
+font-size:14px;
+margin-left:15px;
+margin-top:10px;
+padding-bottom:28px;
+
+}
+
+.blueContainer h4 {
+
+font-size:18px;
+margin-left:15px;
+margin-top:10px;
+}
+
+.blueContainer a {
+color:#FFFFFF;
+
+}
+.whiteContainer li.clear {
+clear:both;
+float:none;
+margin:auto auto auto auto;
+width:0px;
+}
+
+
+
+.footer {
+
+background-color:#f1f1f1;
+}
+
+.footerDivision {
+margin-right:68px;
+float:left;
+margin-top:25px;
+
+}
+
+.footerDivision  h5 {
+font-size:15px;
+color:#666666;
+font-weight:bold;
+padding-bottom:10px;
+
+}
+
+.footerDivision li {
+
+font-weight:normal;
+margin-bottom:6px;
+
+}
+
+.footerInnerdiv {
+
+margin-top:30px
+}
+
+.footerInnerdiv a {
+font-weight:700;
+}
+
+.border {
+border:1px #CCCCCC solid;
+margin-top:15px;
+
+
+}
+
+
+
+.footerBottom  {
+margin:20px auto 10px auto;
+text-align:center;
+}
+
+.footerBottom li {
+display:inline;
+
+
+}
+
+.footerBottom a {
+display:inline;
+padding-right:8px;
+padding-left:8px;
+border-right:1px solid #aaaaaa;
+color:#000000;
+font-weight:700;
+}
+
+#bar {
+border-right:none;
+}
+
+.footer span {
+display:block;
+font-size:14px;
+color:#aaaaaa;
+line-height:20px;
+text-align:center;
+
+}
